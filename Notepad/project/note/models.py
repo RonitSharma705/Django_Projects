@@ -1,7 +1,5 @@
 from django.db import models
 
-# Create your models here.
-
 class Notes(models.Model):
     Title = models.CharField(max_length=100)
     Note = models.TextField()
